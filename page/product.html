@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../image/glassyLogo.png" type="image/x-icon" />
+    <title>Product-Klassy Clone</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../style/productStyle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="row-1">
+          <i class="bx bx-menu"></i>
+          <div class="image-group">
+            <img
+              src="https://klassywatches.com/cdn/shop/files/Artboard_3_2_213b1bea-2b74-4aab-86a5-1bfb64acc4a5_100x.png?v=1614361108"
+              alt=""
+              class="img-for-change"
+            />
+          </div>
+          <div class="right-section .section-container">
+            <div class="group-icon">
+              <i class="bx bx-user"></i>
+              <i class="bx bx-search"></i>
+              <i class="bx bx-shopping-bag"></i>
+            </div>
+          </div>
+        </div>
+        <div class="left-section .section-container">
+          <a href="">Watches</a>
+          <a href="">Golden Concept</a>
+          <a href="">His & Hers</a>
+          <a href="">Sunglasses</a>
+        </div>
+      </div>
+    </header>
+    <section class="all-watch-section">
+      <h2 class="heading">ALL WATCHES</h2>
+      <div class="all-watch-container">
+        <button class="sort-button">SORT</button>
+        <div class="side-bar">
+          <i class='bx bx-x-circle'></i>
+          <h2>BRAND</h2>
+          <button class="filter-button active" data-id="zinvo">Zinvo</button>
+          <button class="filter-button" data-id="d1milano">D1 Milano</button>
+          <button class="filter-button" data-id="corniche">Corniche</button>
+          <button class="filter-button" data-id="david-paper">
+            David Daper
+          </button>
+          <button class="filter-button" data-id="electrician">
+            Electricianz
+          </button>
+          <button class="filter-button" data-id="meister">Meister</button>
+        </div>
+        <div class="product-containers">
+          <div class="product-item-grids js-item-grid animate__animated animate__zoomIn"></div>
+        </div>
+      </div>
+    </section>
+    <script src="../javascript/product.js"></script>
+  </body>
+</html>
